@@ -4,8 +4,13 @@ title {
     border: 2px solid red;
 }
 .meow {
-    display: block;
+    display: flex;
     background-color: darkblue;
     border: 2pc solid white;
     empty-cells: show;
+    justify-content: center;
+}
+
+.element {
+    font-size: 22px;
 }
